@@ -16,3 +16,13 @@ the function and run automatically when you commit through a GitHub action.
 ## Runtime Analysis
 
 What is the worst-case big $\Theta$ time complexity of your algorithm?
+
+Answer:
+
+The worst case runtime for this algorithm is $\Theta (V \cdot E)$ where $V$ is the number of vertices and $E$ is the number of edges.
+
+The first for-loop represents the traversal of the vertices and takes $V$ time in the worst case scenario.
+
+The second for-loop represents the traversal of the edges and takes $E$ time in the worst case scenario.
+
+When looking at the whole algorithm, the worst case scenario runtime would be $\Theta (V \cdot E)$.
